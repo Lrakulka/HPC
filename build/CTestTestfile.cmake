@@ -1,0 +1,26 @@
+# CMake generated Testfile for 
+# Source directory: /tmp/HPC
+# Build directory: /tmp/HPC/build
+# 
+# This file includes the relevent testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+ADD_TEST(UniTest-circuit-contains-1010111110011001 "circuit")
+SET_TESTS_PROPERTIES(UniTest-circuit-contains-1010111110011001 PROPERTIES  PASS_REGULAR_EXPRESSION "1010111110011001")
+ADD_TEST(UniTest-circuit-contains-0110111110011001 "circuit")
+SET_TESTS_PROPERTIES(UniTest-circuit-contains-0110111110011001 PROPERTIES  PASS_REGULAR_EXPRESSION "0110111110011001")
+ADD_TEST(UniTest-circuit-contains-1110111110011001 "circuit")
+SET_TESTS_PROPERTIES(UniTest-circuit-contains-1110111110011001 PROPERTIES  PASS_REGULAR_EXPRESSION "1110111110011001")
+ADD_TEST(UniTest-circuit-contains-1010111111011001 "circuit")
+SET_TESTS_PROPERTIES(UniTest-circuit-contains-1010111111011001 PROPERTIES  PASS_REGULAR_EXPRESSION "1010111111011001")
+ADD_TEST(UniTest-circuit-contains-0110111111011001 "circuit")
+SET_TESTS_PROPERTIES(UniTest-circuit-contains-0110111111011001 PROPERTIES  PASS_REGULAR_EXPRESSION "0110111111011001")
+ADD_TEST(UniTest-circuit-contains-1110111111011001 "circuit")
+SET_TESTS_PROPERTIES(UniTest-circuit-contains-1110111111011001 PROPERTIES  PASS_REGULAR_EXPRESSION "1110111111011001")
+ADD_TEST(UniTest-circuit-contains-1010111110111001 "circuit")
+SET_TESTS_PROPERTIES(UniTest-circuit-contains-1010111110111001 PROPERTIES  PASS_REGULAR_EXPRESSION "1010111110111001")
+ADD_TEST(UniTest-circuit-contains-0110111110111001 "circuit")
+SET_TESTS_PROPERTIES(UniTest-circuit-contains-0110111110111001 PROPERTIES  PASS_REGULAR_EXPRESSION "0110111110111001")
+ADD_TEST(UniTest-circuit-contains-1110111110111001 "circuit")
+SET_TESTS_PROPERTIES(UniTest-circuit-contains-1110111110111001 PROPERTIES  PASS_REGULAR_EXPRESSION "1110111110111001")
+ADD_TEST(MPI_UniTest-mpi_circuit_2-expect-9 "/opt/apps/resif/devel/v1.1-20150414/core/software/mpi/impi/5.0.3.048-iccifort-2015.3.187/bin64/mpiexec" "-np" "4" "mpi_circuit_2")
+SET_TESTS_PROPERTIES(MPI_UniTest-mpi_circuit_2-expect-9 PROPERTIES  PASS_REGULAR_EXPRESSION "9")

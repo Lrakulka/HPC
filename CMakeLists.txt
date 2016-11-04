@@ -13,7 +13,7 @@ cmake_minimum_required (VERSION 2.8.9)
 project (MPI_CircuitSatisfiability C)
 
 SET(CMAKE_C_STANDARD 99)
-#SET(CMAKE_C_FLAGS --std=c99 )
+SET(CMAKE_C_FLAGS --std=c99 )
 
 enable_testing()
 

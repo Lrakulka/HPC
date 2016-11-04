@@ -1,0 +1,1 @@
+/usr/bin/gcc  --std=c99    CMakeFiles/circuit.dir/circuit.c.o  -o circuit -rdynamic 

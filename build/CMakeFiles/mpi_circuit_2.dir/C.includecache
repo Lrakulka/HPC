@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/opt/apps/resif/devel/v1.1-20150414/core/software/mpi/impi/5.0.3.048-iccifort-2015.3.187/intel64/include/mpi.h
+stdint.h
+-
+stddef.h
+-
+cstdint
+-
+stdint.h
+-
+mpio.h
+/opt/apps/resif/devel/v1.1-20150414/core/software/mpi/impi/5.0.3.048-iccifort-2015.3.187/intel64/include/mpio.h
+mpicxx.h
+/opt/apps/resif/devel/v1.1-20150414/core/software/mpi/impi/5.0.3.048-iccifort-2015.3.187/intel64/include/mpicxx.h
+
+/opt/apps/resif/devel/v1.1-20150414/core/software/mpi/impi/5.0.3.048-iccifort-2015.3.187/intel64/include/mpicxx.h
+stdio.h
+-
+
+/opt/apps/resif/devel/v1.1-20150414/core/software/mpi/impi/5.0.3.048-iccifort-2015.3.187/intel64/include/mpio.h
+mpi.h
+/opt/apps/resif/devel/v1.1-20150414/core/software/mpi/impi/5.0.3.048-iccifort-2015.3.187/intel64/include/mpi.h
+
+/tmp/HPC/mpi_circuit_2.c
+stdio.h
+-
+stdlib.h
+-
+stdarg.h
+-
+mpi.h
+-
+Windows.h
+-
+unistd.h
+-
+

@@ -1,0 +1,5 @@
+/tmp/HPC/build/CMakeFiles/circuit.dir
+/tmp/HPC/build/CMakeFiles/mpi_circuit_1.dir
+/tmp/HPC/build/CMakeFiles/mpi_circuit_2.dir
+/tmp/HPC/build/CMakeFiles/mpi_circuit_3.dir
+/tmp/HPC/build/CMakeFiles/mpi_template.dir
